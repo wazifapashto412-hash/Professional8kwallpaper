@@ -1,4 +1,4 @@
-name: Build Infinity 8K Wallpapers
+name: Build Android APK and AAB
 
 on:
   push:
@@ -29,28 +29,31 @@ jobs:
 
       - name: Set Up Gradle
         uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.14.3'
 
-      - name: Grant Gradle Permission
-        run: chmod +x gradlew
+      - name: Check Android Project
+        run: |
+          ls -la
+          test -f settings.gradle.kts -o -f settings.gradle
+          test -f app/build.gradle.kts -o -f app/build.gradle
 
       - name: Build Debug APK
-        run: ./gradlew assembleDebug
+        run: gradle assembleDebug
 
       - name: Build Release AAB
-        run: ./gradlew bundleRelease
+        run: gradle bundleRelease
 
       - name: Upload APK
-        if: always()
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: Infinity-8K-APK
           path: app/build/outputs/apk/debug/*.apk
-          if-no-files-found: warn
 
       - name: Upload AAB
-        if: always()
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: Infinity-8K-AAB
           path: app/build/outputs/bundle/release/*.aab
-          if-no-files-found: warn
