@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sample-8k-001",
+    "title": "Alpine Lake at Dawn",
+    "category": "mountains",
+    "thumbUrl": "https://YOUR-CDN/thumbs/sample-8k-001.jpg",
+    "previewUrl": "https://YOUR-CDN/preview/sample-8k-001.jpg",
+    "fullUrl": "https://YOUR-CDN/full/sample-8k-001.jpg",
+    "width": 4320,
+    "height": 7680,
+    "trending": true,
+    "featured": true,
+    "downloads": 0,
+    "credit": "Photo by NAME (licence: CC0 / your own)"
+  }
+]

@@ -1,0 +1,8 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Public read-only catalogue. Writes only through the Firebase Console / Admin SDK (tools/wallpaper-admin.js).
+    match /wallpapers/{id}  { allow read: if true; allow write: if false; }
+    match /categories/{id}  { allow read: if true; allow write: if false; }
+  }
+}

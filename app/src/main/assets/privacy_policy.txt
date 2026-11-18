@@ -1,0 +1,42 @@
+PRIVACY POLICY - Infinity 8K Wallpapers
+Last updated: [DATE]
+
+This template describes how the app works as shipped. Replace the bracketed items, review it with your own legal adviser, and keep it in sync with what you actually enable.
+
+1. Who we are
+Infinity 8K Wallpapers ("the app") is published by [YOUR NAME / COMPANY]. Contact: [YOUR EMAIL].
+
+2. Information the app handles
+- No account is required and we do not ask for your name, email or phone number.
+- Favorites, download history, recently viewed items and recent searches are stored only on your device. We do not receive them.
+- Wallpaper lists are loaded over HTTPS from our content service ([Firebase Firestore / Pexels]). Like any internet request, the service provider can see your IP address and basic device/request data.
+
+3. Advertising (Google AdMob)
+The app shows ads provided by Google AdMob. AdMob may collect and use the advertising ID, IP address, device information and ad interaction data to serve and measure ads and, where permitted, personalised ads. In regions where consent is required (e.g. EEA, UK), we ask for your choice through Google's consent form (User Messaging Platform) and you can change it later in Settings > Ad privacy choices. See https://policies.google.com/technologies/ads and https://policies.google.com/privacy.
+
+4. Permissions
+- Internet / network state: load wallpapers and detect connectivity.
+- Set wallpaper: apply a wallpaper to your home or lock screen.
+- Advertising ID: used by AdMob. You can reset or delete it in Android settings.
+The app does not request storage, camera, microphone, contacts or location permissions.
+
+5. Downloads
+Downloaded wallpapers are saved to Pictures/Infinity Wallpapers on your device (Android 10+) or the app's own Pictures folder (Android 8-9). You can delete them at any time with your gallery or file manager.
+
+6. Image sources and credits
+Wallpapers come from licensed sources. Where a photographer credit is provided (for example Pexels), it is shown on the wallpaper screen.
+
+7. Children
+The app is not directed to children under 13 and we do not knowingly collect their personal data.
+
+8. Data retention and deletion
+Data stored by the app is on your device; uninstalling the app or clearing its storage removes it. For ad-related data, see Google's controls linked above.
+
+9. Security
+All network communication uses HTTPS.
+
+10. Changes
+We may update this policy; the date above will change.
+
+11. Contact
+[YOUR EMAIL] - [YOUR WEBSITE]
